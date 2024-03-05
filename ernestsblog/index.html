@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="25px" height="25px"><path d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"/></svg></a></li>
+      <li><a href="#blogs">Blogs</a></li>
+      <li><a href="#aboutMe">About Me</a></li>
+      <li><a href="#books">Books</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <!-- <li><a href="#">Login</a></li> -->
+    </ul>
+    <ul>
+      <li class="nameSite"><a href="#">Enlightened Sphere</a></li>
+      <li class="hideOnMobile"><a href="#">About me</a></li>
+      <li class="hideOnMobile"><a href="#">Blog</a></li>
+      <li class="hideOnMobile"><a href="#">My books</a></li>
+      <li class="hideOnMobile"><a href="#">Contact</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="30px" height="30px"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8.53333,8.53333)"><path d="M3,7c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h24c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587zM3,14c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h24c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587zM3,21c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h24c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587z"></path></g></g></svg></a></li>
+    </ul>
+  </nav>
+  </div>
+  <div class="main">
+    <div class="startingPage">
+    <div class="backgroundDiv">
+      <div class="landing">
+        <div class="introText">
+          Welcome. This enlightened sphere is dedicated to exploring Science,
+          Philosophy and Spirituality and to act as a bridge to reconcile these
+          branches of knowledge. On the side will also be tips for men on how
+          to weather the storms of life from finances, health and relationships.
+          Sail with me to explore ancient wisdom, treasure of inner peace and 
+          self-discovery (enlightenment).
+      </div>
+      <div class="aboutMeDiv">
+          <button class="landingBtn" type="submit">About Me</button>
+      </div>  
+      </div>
+  </div>
+  </div> 
+   <div class="container">
+    <h2 class="containerTitle" style="color: white;" id="blogs">Our latest blog's:</h2>
+    <ul class="contUl">
+       <li class="item 1">
+        <div class="card">
+            <div class="cardPic"></div>
+          <div class="cardInfo">
+            <div class="cardWrapper">
+              <div class="cardDate">
+                <div class="date">26/2/24</div>
+              </div>
+              <div class="cardTime">
+                <ion-icon class="timeIcon">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 -960 960 960" fill="white";><path d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/></svg>
+                </ion-icon>
+                <span class="timeText" style="color: white;">3 min</span>
+              </div>
+            </div>
+            <div class="cardHeadline">
+              <p class="headline">
+                A Brief History of Africa Civilization
+                A Brief History of Africa Civilization
+              </p>
+            </div>
+            <div class="cardBtn">
+              <div class="hash">
+                #history#Africa
+              </div>
+              <button class="cardButton">
+                Read more...
+              </button>
+            </div>
+          </div>
+        </div>
+       </li>
+       <li class="item"><div class="card">
+        <div class="cardPic"></div>
+        <div class="cardInfo">
+          <div class="cardWrapper">
+            <div class="cardDate">
+              <div class="date">26/2/24</div>
+            </div>
+            <div class="cardTime">
+              <ion-icon class="timeIcon">
+                <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 -960 960 960" fill="white";><path d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/></svg>
+              </ion-icon>
+              <span class="timeText" style="color: white;">3 min</span>
+            </div>
+          </div>
+          <div class="cardHeadline">
+            <p class="headline">
+              A Brief History of Africa Civilization
+              A Brief History of Africa Civilization
+            </p>
+          </div>
+          <div class="cardBtn">
+            <div class="hash">
+              #history#Africa
+            </div>
+            <button class="cardButton">
+              Read more...
+            </button>
+          </div>
+        </div>
+      </div>
+    </li>
+       <li class="item">
+        <div class="card">
+          <div class="cardPic"></div>
+          <div class="cardInfo">
+            <div class="cardWrapper">
+              <div class="cardDate">
+                <div class="date">26/2/24</div>
+              </div>
+              <div class="cardTime">
+                <ion-icon class="timeIcon">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 -960 960 960" fill="white";><path d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/></svg>
+                </ion-icon>
+                <span class="timeText" style="color: white;">3 min</span>
+              </div>
+            </div>
+            <div class="cardHeadline">
+              <p class="headline" id="aboutMe">
+                A Brief History of Africa Civilization
+                A Brief History of Africa Civilization
+              </p>
+            </div>
+            <div class="cardBtn">
+              <div class="hash">
+                #history#Africa
+              </div>
+              <button class="cardButton">
+                Read more...
+              </button>
+            </div>
+          </div>
+        </div>
+       </li>
+       <li class="item-4"><a>View more</a></li>
+    </ul>
+  </div>
+  <div class="gradient" id="books"></div>
+  <div class="aboutMe">
+    <div class="aboutMeTxt">
+      <h1 class="abotMeTitle">ABOUT ME</h1>
+      <p class="amp">U.V Ernest enjoys writing. He is born and raised in the southern part of Nigeria. He studied Architecture at Ambrose Alli University, Ekpoma, Edo State, Nigeria. In 2016 he obtained his Master of Arts, Architecture at Hochschule München. Germany.</p>
+    </div>
+    <div class="aboutMePic">
+      <div class="aboutPic"></div>
+      <button class="cvBtn">Download CV</button>
+    </div>
+  </div>
+  <div class="gradientBot"></div>
+  <div class="books">
+    <h1 class="booksTitle">My Books:</h1>
+    <div class="book" id="book">
+      <div class="bookImg"></div>
+      <div class="bookInfo">
+      <div class="bookName">Confraternity</div>
+      <div class="bookBio">An intriguing story about confraternities in Nigeria universities; the good and the bad. Written by Ernest Uadiale.</div>
+      <button class="toBtn">Order</button>
+    </div>
+    </div>
+    <div class="book" id="book">
+      <div class="bookImg2"></div>
+      <div class="bookInfo">
+      <div class="bookName">The Buccaneers Confraternity</div>
+      <div class="bookBio">After weathering all the storms that came their way, the Buccaneers Confraternity is once more faced with what seems the deadliest of storms. </div>
+      <button class="toBtn">Order</button>
+    </div>
+    </div>
+    <div class="book" id="book">
+      <div class="bookImg3"></div>
+      <div class="bookInfo">
+        <div class="bookName">Masculinity in Essence</div>
+      <div class="bookBio">Manliness" refers to those set of qualities, behaviours, and 
+        characteristics often associated with men that are considered 
+        strong, courageous, honourable, and responsible.</div>
+      <button class="toBtn">Free</button>
+      </div>
+    </div>
+    <div class="contactGradient" id="contact"></div>
+    <div class="subncont">
+      <div class="subscribeDiv">
+        <div class="sub">
+          <h1 class="subTitle">Subscribe</h1>
+        <p class="subBio">Join our newsletter to stay up to date on features and releases.</p>
+        <input placeholder="Enter your email" type="text" class="subInput">
+        <button class="subBtn">Subscribe</button>
+        </div>
+        <div class="contact">
+        <div class="name">ERNEST UIDALE</div>
+        <!-- <div class="contCon">Contact:</div> -->
+        <div class="socialMe">
+          <ul class="socUl">
+            <li class="socLi"><a href="https://www.facebook.com/ConfraternityNovel"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="30px" height="30px" style="fill: white;"><path d="M 25 3 C 12.861562 3 3 12.861562 3 25 C 3 36.019135 11.127533 45.138355 21.712891 46.728516 L 22.861328 46.902344 L 22.861328 29.566406 L 17.664062 29.566406 L 17.664062 26.046875 L 22.861328 26.046875 L 22.861328 21.373047 C 22.861328 18.494965 23.551973 16.599417 24.695312 15.410156 C 25.838652 14.220896 27.528004 13.621094 29.878906 13.621094 C 31.758714 13.621094 32.490022 13.734993 33.185547 13.820312 L 33.185547 16.701172 L 30.738281 16.701172 C 29.349697 16.701172 28.210449 17.475903 27.619141 18.507812 C 27.027832 19.539724 26.84375 20.771816 26.84375 22.027344 L 26.84375 26.044922 L 32.966797 26.044922 L 32.421875 29.564453 L 26.84375 29.564453 L 26.84375 46.929688 L 27.978516 46.775391 C 38.71434 45.319366 47 36.126845 47 25 C 47 12.861562 37.138438 3 25 3 z M 25 5 C 36.057562 5 45 13.942438 45 25 C 45 34.729791 38.035799 42.731796 28.84375 44.533203 L 28.84375 31.564453 L 34.136719 31.564453 L 35.298828 24.044922 L 28.84375 24.044922 L 28.84375 22.027344 C 28.84375 20.989871 29.033574 20.060293 29.353516 19.501953 C 29.673457 18.943614 29.981865 18.701172 30.738281 18.701172 L 35.185547 18.701172 L 35.185547 12.009766 L 34.318359 11.892578 C 33.718567 11.811418 32.349197 11.621094 29.878906 11.621094 C 27.175808 11.621094 24.855567 12.357448 23.253906 14.023438 C 21.652246 15.689426 20.861328 18.170128 20.861328 21.373047 L 20.861328 24.046875 L 15.664062 24.046875 L 15.664062 31.566406 L 20.861328 31.566406 L 20.861328 44.470703 C 11.816995 42.554813 5 34.624447 5 25 C 5 13.942438 13.942438 5 25 5 z"/></svg></a></li>
+            <li class="socLi"><a href="https://twitter.com/ernestblogs?t=XwoY8EWoFIqPwFhLHLrhjQ&s=09"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="30px" height="30px" style="fill: white;"><path d="M 11 4 C 7.1456661 4 4 7.1456661 4 11 L 4 39 C 4 42.854334 7.1456661 46 11 46 L 39 46 C 42.854334 46 46 42.854334 46 39 L 46 11 C 46 7.1456661 42.854334 4 39 4 L 11 4 z M 11 6 L 39 6 C 41.773666 6 44 8.2263339 44 11 L 44 39 C 44 41.773666 41.773666 44 39 44 L 11 44 C 8.2263339 44 6 41.773666 6 39 L 6 11 C 6 8.2263339 8.2263339 6 11 6 z M 13.085938 13 L 22.308594 26.103516 L 13 37 L 15.5 37 L 23.4375 27.707031 L 29.976562 37 L 37.914062 37 L 27.789062 22.613281 L 36 13 L 33.5 13 L 26.660156 21.009766 L 21.023438 13 L 13.085938 13 z M 16.914062 15 L 19.978516 15 L 34.085938 35 L 31.021484 35 L 16.914062 15 z"/></svg></a></li>
+            <li class="socLi"><a href="https://www.instagram.com/ernest.uadiale/?utm_source=qr&igsh=a3N2eXo0NHV0a3pq"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="30px" height="30px" style="fill: white;"><path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"/></svg></a></li>
+            <li class="socLi"></li>
+          </ul>
+        </div>
+        <div class="copyRights">© 2024 Ernest  Uidale- All right reserved.  </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <script src="./script.js"></script>
+</body>
+</html>
